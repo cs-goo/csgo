@@ -1,0 +1,11 @@
+#about{
+margin-bottom: 250px;
+}
+
+#download{
+padding-top: 250px;
+}
+.table-hover>tbody>tr:hover {
+	background-color: #4C4C4C
+	;
+}

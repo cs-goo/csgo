@@ -1,0 +1,31 @@
+#about{
+margin-bottom: 250px;
+}
+
+#download{
+padding-top: 250px;
+}
+.table-hover>tbody>tr:hover {
+	background-color: #4C4C4C
+	;
+}
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: block;
+}
+
+ul#menu li a {
+    background-color: #666699;
+    color:#EFEFEF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+display: inline-block;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
