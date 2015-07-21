@@ -187,6 +187,11 @@ th, td {
     
     <div class="contact"></div>
 
+    <?php if(isset($form)):?>
+
+        <?php echo $form;?>
+
+    <?php endif;?>
     
     <footer>
         <div class="container text-center">

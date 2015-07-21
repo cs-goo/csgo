@@ -29,8 +29,11 @@ define('HTTP_CSS_URL', $config['base_url']."assets/css/");
 
 define('HTTP_JS_URL', $config['base_url']."assets/js/");
 
-define('STEAM_USER_ID','CaptainTeemoBG');
-define('STEAM_GAME_ID','730');
+define('DOMAIN_HOST','http://localhost');
+define('API_KEY','1835C24C63FB78A43DC08FA01752A960');
+define('button_style','small');
+define('loginpage','index.php/home/login');
+define('logoutpage','');
 
 /*
 |--------------------------------------------------------------------------
