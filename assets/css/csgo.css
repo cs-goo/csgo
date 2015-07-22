@@ -18,7 +18,7 @@ ul#menu li {
 }
 
 ul#menu li a {
-    background-color: #666699;
+    background-color: #4C4C4C;
     color:#EFEFEF;
     padding: 10px 20px;
     text-decoration: none;
@@ -28,4 +28,10 @@ display: inline-block;
 
 ul#menu li a:hover {
     background-color: orange;
+}
+
+h2{
+
+    text-align: center;
+    font-size: 50px;
 }

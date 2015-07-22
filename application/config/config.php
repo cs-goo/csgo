@@ -31,7 +31,7 @@ define('HTTP_JS_URL', $config['base_url']."assets/js/");
 
 define('DOMAIN_HOST','http://localhost');
 define('API_KEY','1835C24C63FB78A43DC08FA01752A960');
-define('button_style','small');
+define('button_style','large_no');
 define('loginpage','index.php/home/login');
 define('logoutpage','');
 

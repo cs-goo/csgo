@@ -61,6 +61,13 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contacts</a>
                     </li>
+                    <li><?php if(isset($personaname)):?>
+        <?php echo $personaname;?>
+        <?php else : ?>
+        <?php echo $form;?>
+
+    <?php endif;?>
+                   </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -90,9 +97,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Bulgaria Boosting</h2>
-               CS:GO Bulgarian Boosting is web site wich will help you to get out off the rank you are stuck in.We will have at least 10 boosters.Every devision will cost you
-               different prices.Down you will see our top 3 boosters.Your keys/skins will be saved in SteamBot wich won't give them to the booster untill the boost is fully 
-               completed.Our boosters are bulgarians.They are honest and will take you out!</p>
+               <p>CS:GO Bulgarian Boosting is web site wich will help you to get out off the rank you are stuck in. We will have at least 10 boosters.Every devision will <br>cost you
+               different prices. Down you will see our top 3 boosters.<br>Your keys/skins will be saved in SteamBot wich won't give<br> them to the booster untill the boost is fully 
+               completed.<br> Our boosters are bulgarians.They are honest<br> and will take you out!</p>
             </div>
         </div>
     </section>
@@ -100,17 +107,17 @@
     <!-- Download Section -->
    <section id="download" class="container" >
 
-   
+        <h2 class="boosterstitle">Top Boosters</h2>
 
+        <div>
 <ul id="menu">
   <li><a href="/html/default.asp">1 Strike</a></li>
   <li><a href="/css/default.asp">2 NoFlunx|10th Dan|</a></li>
   <li><a href="/js/default.asp">3 Gosho </a></li>
 </ul>  
 
-  
+        </div>
         <div >
-            <h2 class="boosterstitle">Top Boosters</h2>
               <table class='table table-hover'>
 
 <style>
@@ -161,7 +168,7 @@ th, td {
     </section>
 
     <!-- Contact Section -->
-    <<section id="contact" class="container content-section text-center">
+    <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contacts</h2>
@@ -187,12 +194,7 @@ th, td {
     
     <div class="contact"></div>
 
-    <?php if(isset($form)):?>
-
-        <?php echo $form;?>
-
-    <?php endif;?>
-    
+   
     <footer>
         <div class="container text-center">
             <p>Copyright &copy; BugarianBoosting.com 2015</p>
