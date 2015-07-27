@@ -3,7 +3,7 @@ margin-bottom: 250px;
 }
 
 #download{
-padding-top: 250px;
+padding-top: 100px;
 }
 .table-hover>tbody>tr:hover {
 	background-color: #4C4C4C
@@ -35,3 +35,52 @@ h2{
     text-align: center;
     font-size: 50px;
 }
+div.col-sm-4{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #829CEA;
+  color: black;
+  border: 2px solid #080825;
+}
+h4{
+ text-align: center;
+ padding-top: 5px;
+ padding-bottom: 0px;
+ border-bottom: 1px solid black;
+
+
+
+}
+img{
+    width: 175px;
+    height: 175px;
+
+}
+
+#tbp img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+p.reputation{
+    padding-top: 15px;
+    font-size: 19px;
+    font-style: oblique;
+    font-weight: 900px;
+    padding-bottom: 0px;
+
+}
+
+ul.stat{
+    padding-top:25px ;
+    list-style-type: none;
+    font-size: 19px;
+    font-style: oblique;
+}
+

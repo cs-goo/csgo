@@ -33,7 +33,7 @@ class Home extends CI_Controller {
 		            header('Location: ' . $openid->authUrl());
 		        }
 
-			    $data['form'] = "<form action=\"?login\" method=\"post\"> <input type=\"image\" src=\"http://cdn.steamcommunity.com/public/images/signinthroughsteam/sits_".$button.".png\"></form>";
+			    $data['form'] = "<form action=".?login." method=\"post\"> <input type=\"image\" src=\"http://cdn.steamcommunity.com/public/images/signinthroughsteam/sits_".$button.".png\"></form>";
 			   
 
 			

@@ -23,13 +23,6 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
@@ -61,12 +54,15 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contacts</a>
                     </li>
-                    <li><?php if(isset($personaname)):?>
+                        
+                    <li>
+                      <?php if(isset($personaname)):?>
         <?php echo $personaname;?>
         <?php else : ?>
         <?php echo $form;?>
 
     <?php endif;?>
+  
                    </li>
                 </ul>
             </div>
@@ -104,66 +100,40 @@
         </div>
     </section>
 
-    <!-- Download Section -->
-   <section id="download" class="container" >
+    <!-- Download Section -->                                                                              
+    <section id="download" class="container" >
 
-        <h2 class="boosterstitle">Top Boosters</h2>
+      <h2 class="boosterstitle">Top Boosters</h2>
 
-        <div>
-<ul id="menu">
-  <li><a href="/html/default.asp">1 Strike</a></li>
-  <li><a href="/css/default.asp">2 NoFlunx|10th Dan|</a></li>
-  <li><a href="/js/default.asp">3 Gosho </a></li>
-</ul>  
-
+      <div class="container">
+        <div class="col-sm-4" id="tbp" >
+         <h4>Strike</h4>
+         <img src="<?php echo base_url();?>assets\img\1.jpg">
+         <ul class="stat">
+          <li>Reputation: 8</li>
+          <li>Clients: 5</li>
+          <li>Happy Clients</li>
+         </ul>                     
         </div>
-        <div >
-              <table class='table table-hover'>
-
-<style>
-table, th, td {
-    border: 1px solid white;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 15px;
-}
-</style>
-  <thead>
-      <tr>
-        <th>infomation</th>
-        <th>Strike</th>
-        <th>NoFlunx|10th Dan|</th>
-        <th>GOSHO</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr >
-        <td>reputation</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-      <tr >
-        <td>clients</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-      <tr >
-        <td>happy clients</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-
-      
-
-        
-      </tr>
-    </tbody>
-  </table>
-        
+        <div class="col-sm-4" id="tbp" >
+         <h4>Gosho</h4> 
+         <img src="<?php echo base_url();?>assets\img\2.jpg">
+         <ul class="stat">
+          <li>Reputation: 5</li>
+          <li>Clients: 4</li>
+          <li>Happy Clients</li>
+         </ul>                       
         </div>
+        <div class="col-sm-4" id="tbp" >
+         <h4>Pesho</h4> 
+         <img src="<?php echo base_url();?>assets\img\3.jpg"> 
+         <ul class="stat">
+          <li>Reputation: 3</li>
+          <li>Clients: 3</li>
+          <li>Happy Clients</li>
+         </ul>                       
+        </div>
+    </div>
    
     </section>
 
@@ -199,6 +169,8 @@ th, td {
         <div class="container text-center">
             <p>Copyright &copy; BugarianBoosting.com 2015</p>
         </div>
+
+    
     </footer>
 
     <!-- jQuery -->
