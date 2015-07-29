@@ -84,3 +84,23 @@ ul.stat{
     font-style: oblique;
 }
 
+.btn-primary {
+  color: #829CEA;
+  background-color: #000000;
+  border-color: #829CEA;
+}
+
+#contact a:link  {
+  color:#829CEA;
+}
+
+#contact a:hover{
+  color:white ;
+
+}
+
+.btn-info{
+  color:white;
+  background-color:#829CEA ;
+  border-color: white;
+}

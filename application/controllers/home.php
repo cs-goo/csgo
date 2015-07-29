@@ -31,7 +31,8 @@ class Home extends CI_Controller {
 		        if(isset($_GET['login'])) {
 		            $openid->identity = 'http://steamcommunity.com/openid';
 		            header('Location: ' . $openid->authUrl());
-		        }
+                     
+		            		        }
 
 			    $data['form'] = "<form action=\"?login\" method=\"post\"> <input type=\"image\" src=\"http://cdn.steamcommunity.com/public/images/signinthroughsteam/sits_".$button.".png\"></form>";
 			   
@@ -53,7 +54,7 @@ class Home extends CI_Controller {
 		                //If it didn't change anything, it means that there's no additionals vars, so remove the login var so that we don't get redirected to Steam over and over.
 		                if($returnTo === $_GET['openid_return_to']) $returnTo = str_replace('?login', '', $_GET['openid_return_to']);
 						
-		                header('Location: '.$returnTo);
+		                redirect('home/login');
 		        } else {
 		        	if($this->session->userdata('steamid') != null){
 		        		$data['form'] = $this->session->userdata('personaname');

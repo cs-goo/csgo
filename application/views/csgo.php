@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo HTTP_SITE_URL ?>CS-GO Boosting</title>
+    <title><?php echo HTTP_SITE_URL ?>Bulgaria Boosting</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo HTTP_CSS_URL ?>bootstrap.min.css" rel="stylesheet">
@@ -113,7 +113,28 @@
           <li>Reputation: 8</li>
           <li>Clients: 5</li>
           <li>Happy Clients</li>
-         </ul>                     
+          <li>  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Profile</button></li>
+         </ul>
+         <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in .</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button"  data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
         </div>
         <div class="col-sm-4" id="tbp" >
          <h4>Gosho</h4> 
@@ -148,13 +169,13 @@
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://www.facebook.com/BGboosting?ref=aymt_homepage_panel"
-                        target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook-official fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-facebook-official fa-fw"></i> <span class="network-name">Facebook</span></a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/channel/UCnHPy9ezziHn8iMuNsdph9g" class="btn btn-default btn-lg"><i class="fa fa-youtube-play"></i> <span class="network-name">Youtube</span></a>
+                        <a href="https://www.youtube.com/channel/UCnHPy9ezziHn8iMuNsdph9g" class="btn btn-primary btn-lg"><i class="fa fa-youtube-play"></i> <span class="network-name">Youtube</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-primary btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
             </div>
