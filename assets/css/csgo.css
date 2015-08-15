@@ -1,9 +1,9 @@
 #about{
-margin-bottom: 250px;
+margin-bottom: 150px;
 }
 
-#download{
-padding-top: 100px;
+#boosters{
+padding-top: 75px;
 }
 .table-hover>tbody>tr:hover {
 	background-color: #4C4C4C
@@ -71,7 +71,6 @@ img{
 p.reputation{
     padding-top: 15px;
     font-size: 19px;
-    font-style: oblique;
     font-weight: 900px;
     padding-bottom: 0px;
 
@@ -81,7 +80,7 @@ ul.stat{
     padding-top:25px ;
     list-style-type: none;
     font-size: 19px;
-    font-style: oblique;
+   
 }
 
 .btn-primary {
@@ -104,3 +103,61 @@ ul.stat{
   background-color:#829CEA ;
   border-color: white;
 }
+
+.allboosterstitle{
+  margin-top: 400px;
+  margin-bottom:15px   ;
+
+}
+
+.allboosterstitle a:link{
+
+  color: #829CEA;
+}
+
+.btn-warning{
+  color:#829CEA;
+  background-color:#000000 ;
+  border-color:#829CEA ;
+  margin-left:450px ;
+  margin-top:25px ;
+  width: 250px;
+  height: 60px;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/background.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.alb a {
+
+  border:2px solid white;
+  color:white;
+  background-color: #829CEA ;
+  font-size: 35px;
+  padding: 5px;
+  margin-top: 250px;
+  margin-left: 380px;
+
+
+}
+
+.alb {
+
+  margin-top: 15px;
+
+
+}
+
+

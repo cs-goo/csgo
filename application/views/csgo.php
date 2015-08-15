@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo HTTP_SITE_URL ?>Bulgaria Boosting</title>
+    <title><?php echo HTTP_SITE_URL ?>Bulgarian Boosting</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo HTTP_CSS_URL ?>bootstrap.min.css" rel="stylesheet">
@@ -34,7 +34,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-gamepad"></i>  <span class="light">CS-GO</span> Bulgaria Boosting
+                    <i class="fa fa-gamepad"></i>  <span class="light">CS-GO</span> Bulgarian Boosting
                 </a>
             </div>
 
@@ -49,7 +49,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Top boosters</a>
+                        <a class="page-scroll" href="#boosters">Boosters</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contacts</a>
@@ -92,7 +92,7 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Bulgaria Boosting</h2>
+                <h2>About Bulgarian Boosting</h2>
                <p>CS:GO Bulgarian Boosting is web site wich will help you to get out off the rank you are stuck in. We will have at least 10 boosters.Every devision will <br>cost you
                different prices. Down you will see our top 3 boosters.<br>Your keys/skins will be saved in SteamBot wich won't give<br> them to the booster untill the boost is fully 
                completed.<br> Our boosters are bulgarians.They are honest<br> and will take you out!</p>
@@ -100,8 +100,8 @@
         </div>
     </section>
 
-    <!-- Download Section -->                                                                              
-    <section id="download" class="container" >
+    <!-- Boosters Section -->                                                                              
+    <section id="boosters" class="container" >
 
       <h2 class="boosterstitle">Top Boosters</h2>
 
@@ -110,52 +110,67 @@
          <h4>Strike</h4>
          <img src="<?php echo base_url();?>assets\img\1.jpg">
          <ul class="stat">
-          <li>Reputation: 8</li>
-          <li>Clients: 5</li>
-          <li>Happy Clients</li>
-          <li>  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Profile</button></li>
+          <li>Reputation:12</li>
+          <li>Clients:4</li>
+          <li>Happy Clients:3</li>
+          <li>  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#first">Profile</button>
+          <button type="button" class="btn btn-info btn-lg" onclick="myFunction()" >Order</button></li>
          </ul>
-         <div class="modal fade" id="myModal" role="dialog">
+         <div class="modal fade" id="first" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
+          <h4 class="modal-title">Strike</h4>
         </div>
         <div class="modal-body">
-          <p>Some text in .</p>
+          <ul class="stat">
+           <li>Reputation:12</li>
+           <li>Clients:4</li>
+           <li>Happy Clients:3</li>
+          </ul>
         </div>
         <div class="modal-footer">
-          <button type="button"  data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-modal close btn-lg"  data-dismiss="modal">Close</button>
         </div>
       </div>
       
     </div>
+     <script>
+function myFunction() {
+    alert("Your order was sent. Please check your email.");}
+</script>
   </div>
 
         </div>
         <div class="col-sm-4" id="tbp" >
-         <h4>Gosho</h4> 
+         <h4>Sasho</h4> 
          <img src="<?php echo base_url();?>assets\img\2.jpg">
          <ul class="stat">
           <li>Reputation: 5</li>
           <li>Clients: 4</li>
-          <li>Happy Clients</li>
-         </ul>                       
+          <li>Happy Clients: 2</li>
+          <li>  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#first">Profile</button>
+          <button type="button" class="btn btn-info btn-lg" onclick="myFunction()" >Order</button></li>         </ul>                       
         </div>
         <div class="col-sm-4" id="tbp" >
-         <h4>Pesho</h4> 
-         <img src="<?php echo base_url();?>assets\img\3.jpg"> 
+         <h4>Titan</h4> 
+         <img src="<?php echo base_url();?>assets\img\4.jpg"> 
          <ul class="stat">
           <li>Reputation: 3</li>
           <li>Clients: 3</li>
-          <li>Happy Clients</li>
+          <li>Happy Clients: 2</li>
+          <li>  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#first">Profile</button>
+          <button type="button" class="btn btn-info btn-lg" onclick="myFunction()" >Order</button></li>
          </ul>                       
         </div>
+      
     </div>
-   
+      <div class="alb">
+         <a href="<?php echo site_url('all'); ?>" >All boosters</a>
+         </div>
     </section>
 
     <!-- Contact Section -->
@@ -175,7 +190,7 @@
                         <a href="https://www.youtube.com/channel/UCnHPy9ezziHn8iMuNsdph9g" class="btn btn-primary btn-lg"><i class="fa fa-youtube-play"></i> <span class="network-name">Youtube</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-primary btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-primary btn-lg"><i class="fa fa-twitter"></i> <span class="network-name">Twitter</span></a>
                     </li>
                 </ul>
             </div>
@@ -190,6 +205,8 @@
         <div class="container text-center">
             <p>Copyright &copy; BugarianBoosting.com 2015</p>
         </div>
+
+    
 
     
     </footer>

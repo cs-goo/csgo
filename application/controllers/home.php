@@ -65,6 +65,8 @@ class Home extends CI_Controller {
 
 		    }
 		}catch(Exception $e){}
+		 $this->load->model('csgomodel');
+		 $data['records'] = $this->csgomodel->getData();
 		 $this->load->view('csgo',$data);
 
 	}
@@ -84,7 +86,9 @@ class Home extends CI_Controller {
 				'steam_avatar' =>  @$content['response']['players'][0]['avatar'],
 				'steam_avatarmedium' =>  @$content['response']['players'][0]['avatarmedium'],
 				'steam_avatarfull' => @$content['response']['players'][0]['avatarfull'],
-				'steam_personastate' => @$content['response']['players'][0]['personastate']
+				'steam_personastate' => @$content['response']['players'][0]['personastate'],
+				'steam_inventory' => @$content['response']['players'][0]['inventory']
+
 				);
 				 if (isset($content['response']['players'][0]['realname'])) { 
     	           $data['steam_realname'] = @$content['response']['players'][0]['realname'];
@@ -110,6 +114,8 @@ class Home extends CI_Controller {
         $userDet['realname'] = $this->session->userdata('steam_realname');
         $userDet['primaryclanid'] = $this->session->userdata('steam_primaryclanid');
         $userDet['timecreated'] = $this->session->userdata('steam_timecreated');
+
+        
 	  
 		$this->load->view('csgo',$userDet);
 
